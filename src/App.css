@@ -4,33 +4,48 @@
   padding:100pt;
 }
 #treat-your-pet{
-  padding-right:30pt;
+  padding-right:5%;
   width:50%;
   float:left;
   width:40%;
 }
+span{
+  font-weight:bold;
+}
 #cat-1{
-  width:50%;
+  width:55%;
 }
 button{
-  background-color:salmon;
+  background-color:#e89880;
   color:white;
   font-weight:bold;
   font-family:"Montserrat";
   width:100%;
   padding-top:10pt;
   padding-bottom:10pt;
+  border:none;
+}
+#treat-title{
+  font-family: 'Roboto Condensed', sans-serif;
+  margin:none;
+  padding:none;
+  margin:none;
+  height:100%;
 }
 #minnows-section{
   text-align:center;
   background-color:lightgrey;
+  padding-top:20pt;
+  padding-bottom:20pt;
 }
 #minnows-1{
   width:50%;
   float:left;
   background-color:lightgrey;
+  height:100%;
 }
 #minnows-2{
+  height:100%;
   width:50%;
   float:right;
   background-color:lightgrey;
@@ -38,4 +53,13 @@ button{
 #image-2{
   width:50%;
   float:left;
+}
+#pet-approved{
+  width:40%;
+  float:right;
+  padding:20pt;
+  padding-top:70pt;
+}
+#pet-approved h1{
+  font-family: 'Roboto Condensed', sans-serif;
 }

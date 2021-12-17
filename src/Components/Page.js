@@ -20,7 +20,7 @@ function Page(){
                 <img id="cat-1" src={image1}></img>
             </div>
             <div id="minnows-section">
-                <h1>Our Treat</h1>
+                <h1 id="treat-title">OUR TREAT</h1>
                 <div id="minnows-1">
                     <img src={image3}></img>
                     <h2>Freeze Dried Minnows</h2>
@@ -36,7 +36,7 @@ function Page(){
                 <img src={image2}></img>
             </div>
             <div id="pet-approved">
-                <h1>Pet-Approved</h1>
+                <h1>PET-APPROVED</h1>
                 <h2>It feels good to be a member.</h2>
                 <p>After your free trial, become a full-time member with benefits for $59 a year.</p>
                 <ul>
