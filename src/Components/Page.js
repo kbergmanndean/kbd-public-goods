@@ -1,5 +1,6 @@
 import React from "react"
 import image1 from "../Pictures/cat_image1_desktop.png"
+import image3 from "../Pictures/cat_treats_fd_minnows_01 3.png"
 
 function Page(){
     return(
@@ -14,7 +15,22 @@ function Page(){
                 </ul>
                 <button>Claim your free offer</button>
             </div>
-            <img src={image1}></img>
+            <div>
+                <img src={image1}></img>
+            </div>
+            <div>
+                <h1>Our Treat</h1>
+                <div>
+                    <img src={image3}></img>
+                    <h2>Freeze Dried Minnows</h2>
+                    <p>Healthy ingredients with nothing to hide.</p>
+                </div>
+                <div>
+                    <img src={image3}></img>
+                    <h2>Freeze Dried Minnows</h2>
+                    <p>Healthy ingredients with nothing to hide.</p>
+                </div>
+            </div>
         </div>
     )
 }
