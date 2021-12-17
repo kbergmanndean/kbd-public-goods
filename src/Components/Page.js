@@ -5,7 +5,7 @@ import image2 from "../Pictures/cat_image2_desktop.png"
 
 function Page(){
     return(
-        <div>
+        <div id="body">
             <div id="treat-your-pet">
                 <h1>Treat your pet (and you). It's on us!</h1>
                 <p>Treat your pet to a healthy treat for <span>free</span> to kick off your Public Goods trial membership.</p>
@@ -17,7 +17,7 @@ function Page(){
                 <button>Claim your free offer</button>
             </div>
             <div id="image-1">
-                <img src={image1}></img>
+                <img id="cat-1" src={image1}></img>
             </div>
             <div id="minnows-section">
                 <h1>Our Treat</h1>

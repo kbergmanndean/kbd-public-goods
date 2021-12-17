@@ -1,6 +1,25 @@
+#body{
+  font-family:"Montserrat";
+  align-items:center;
+  padding:100pt;
+}
 #treat-your-pet{
+  padding-right:30pt;
   width:50%;
   float:left;
+  width:40%;
+}
+#cat-1{
+  width:50%;
+}
+button{
+  background-color:salmon;
+  color:white;
+  font-weight:bold;
+  font-family:"Montserrat";
+  width:100%;
+  padding-top:10pt;
+  padding-bottom:10pt;
 }
 #minnows-section{
   text-align:center;
